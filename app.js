@@ -9,7 +9,7 @@ const printProfileData = profileDataArr => {
   console.log('===================');
   
   //Is the same as this ..
-  profileDataArr.forEach(profileItem => cosole.log(profileItem));
+  profileDataArr.forEach(profileItem => console.log(profileItem));
     
  
 };
