@@ -1,6 +1,3 @@
-var message ='Hello Node!';
+var commandLineArgs = process.argv;
 
-var sum =5+3;
-
-console.log(message);
-console.log (sum);
+console.log(commandLineArgs)
