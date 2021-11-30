@@ -11,7 +11,7 @@ const printProfileData = profileDataArr => {
   //Is the same as this ..
   profileDataArr.forEach(profileItem => cosole.log(profileItem));
     
-  });
+ 
 };
 
 printProfileData (profileDataArgs);
