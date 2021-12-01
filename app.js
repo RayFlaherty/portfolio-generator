@@ -1,5 +1,7 @@
 const profileDataArgs= process.argv.slice(2,process.argv.length);
+const generatePage= () => 'Name : Ray, Github: RayFlaherty';
 
+console.log(generatePage());
 //const printProfileData = profileDataArr => {
   //This...
   //for (let i =0; i < profileDataArr.Length; i += 1) {
