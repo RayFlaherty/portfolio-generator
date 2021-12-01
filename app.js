@@ -19,11 +19,13 @@ const generatePage = (userName, githubName) => {
   `; 
 };
 
-fs.writeFile(index ('index.html', generatePage(name, github),err=> {
+fs.writeFile('index.html', generatePage(name, github),err=> {
   if (err) throw err;
   
   console.log('Portfolio complete! Check out index.html to see the output!')
 });
+
+
 //const printProfileData = profileDataArr => {
   //This...
   //for (let i =0; i < profileDataArr.Length; i += 1) {
