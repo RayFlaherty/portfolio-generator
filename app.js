@@ -1,4 +1,6 @@
 const profileDataArgs= process.argv.slice(2,process.argv.length);
+const name = profileDataArgs[0];
+const github= profileDataArgs[1];
 const generatePage = (userName, githubName) => {
   return `
     Name: ${userName}
@@ -6,7 +8,7 @@ const generatePage = (userName, githubName) => {
   `; 
 };
 
-console.log(generatePage('Ray', 'RayFlaherty'));
+console.log(generatePage(name, github));
 //const printProfileData = profileDataArr => {
   //This...
   //for (let i =0; i < profileDataArr.Length; i += 1) {
